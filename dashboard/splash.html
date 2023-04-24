@@ -1,0 +1,311 @@
+<html>
+
+<head>
+    <title>Grocery List</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap">
+</head>
+
+<body>
+    <div class="table col-12">
+        <table class="table-striped
+        table-hover	
+        table-borderless
+        table-secondary
+        col-12">
+            <caption>Shortcuts</caption>
+            <thead class="">
+
+                <tr>
+                    <th>Category</th>
+                    <th>Setting</th>
+                    <th>Shortcut</th>
+                </tr>
+            </thead>
+            <tbody class="">
+
+                <tr>
+                    <td>Accessibility</td>
+                    <td>Closed captioning</td>
+                    <td>ms-settings:easeofaccess-closedcaptioning</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>High contrast</td>
+                    <td>ms-settings:easeofaccess-highcontrast</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Keyboard</td>
+                    <td>ms-settings:easeofaccess-keyboard</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Magnifier</td>
+                    <td>ms-settings:easeofaccess-magnifier</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mouse</td>
+                    <td>ms-settings:easeofaccess-mouse</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Narrator</td>
+                    <td>ms-settings:easeofaccess-narrator</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Other options</td>
+                    <td>ms-settings:easeofaccess-otheroptions</td>
+                </tr>
+                <tr>
+                    <td>Battery and power</td>
+                    <td>Battery Saver</td>
+                    <td>ms-settings:batterysaver</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Battery Saver settings</td>
+                    <td>ms-settings:batterysaver-settings</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Battery use</td>
+                    <td>ms-settings:batterysaver-usagedetails</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Power and sleep</td>
+                    <td>ms-settings:powersleep</td>
+                </tr>
+                <tr>
+                    <td>Display and user interface</td>
+                    <td>Backgrounds</td>
+                    <td>ms-settings:personalization-background</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Colors (display)</td>
+                    <td>ms-settings:colors</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Colors (personaliation)</td>
+                    <td>ms-settings:personalization-colors</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Date and time</td>
+                    <td>ms-settings:dateandtime</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Display</td>
+                    <td>ms-settings:display</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mouse and touchpad</td>
+                    <td>ms-settings:mousetouchpad</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Personalization</td>
+                    <td>ms-settings:personalization</td>
+                </tr>
+                <tr>
+
+                    <td></td>
+                    <td>Region and language</td>
+                    <td>ms-settings:regionlanguage</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Screen rotation</td>
+                    <td>ms-settings:screenrotation</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Speech</td>
+                    <td>ms-settings:speech</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Start</td>
+
+                    <td>ms-settings:personalization-start</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Themes</td>
+                    <td>ms-settings:themes</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Typing</td>
+                    <td>ms-settings:typing</td>
+                </tr>
+                <tr>
+                    <td>Network and radios</td>
+                    <td>Airplane mode</td>
+                    <td>ms-settings:network-airplanemode</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Bluetooth</td>
+                    <td>ms-settings:bluetooth</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Cellular</td>
+                    <td>ms-settings:network-cellular</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Data usage</td>
+                    <td>ms-settings:datausage</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Dialup</td>
+                    <td>ms-settings:network-dialup</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>DirectAccess</td>
+                    <td>ms-settings:network-directaccess</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ethernet</td>
+                    <td>ms-settings:network-ethernet</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Manage Wi-Fi</td>
+                    <td>ms-settings:network-wifisettings</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mobile hotspot</td>
+                    <td>ms-settings:network-mobilehotspot</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Proxy</td>
+                    <td>ms-settings:network-proxy</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Wi-Fi</td>
+                    <td>ms-settings:network-wifi</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>VPN</td>
+                    <td>ms-settings:network-vpn</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Other</td>
+                    <td>For developers</td>
+                    <td>ms-settings:developers</td>
+                </tr>
+                <tr>
+                    <td>Offline maps</td>
+                    <td>ms-settings:maps</td>
+                </tr>
+                <tr>
+                    <td>Optional features</td>
+                    <td>ms-settings:optionalfeatures</td>
+                </tr>
+                <tr>
+
+                    <td>Account info</td>
+                    <td>ms-settings:privacy-accountinfo</td>
+                </tr>
+
+
+                </thead>
+
+            <tfoot></tfoot>
+        </table>
+    </div>
+    <div class="container">
+        <form class="row g-3 needs-validation" novalidate id="login" action="">
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Name</label>
+                <input type="text" class="form-control" id="login_name" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Password</label>
+                <input type="text" class="form-control" id="login_password" required>
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+        <form id="grocery-list">
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="T-Paper" id="T-Paper" name="grocery-item">
+                    <label class="form-check-label" for="T-Paper">InLine</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="DCT" id="DCT" name="grocery-item">
+                    <label class="form-check-label" for="DCT">TaskList</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            $("#login").submit(function (e) {
+                e.preventDefault();
+                $name = $("#login_name").val();
+                $password = $("#login_password").val();
+                $.ajax({
+                    url: "https://prod-28.southafricanorth.logic.azure.com:443/workflows/45442b044927497383a33972c5c986d5/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jjemoJoT70zjjr31okjObHGkWgxWt84jK6HHDzSqb6c  ",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        Section: "Login",
+                        name: $name,
+                        password: $password
+                    }),
+                    success: function (response) {
+                        console.log(response);
+                        $("#login_name").val(response.Login_Status)
+                        $("#r1").append(response);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log("Error:", errorThrown);
+                    },
+                });
+            });
+        });
+    </script>
+    <breathing id="breathing"></breathing>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<html>
+
+<head>
+    <title>Workspace</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Dashboard</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Centrality</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search"
+          aria-label="Search" />
+        <div class="navbar-nav">
+          <div class="nav-item text-nowrap">
+            <a class="nav-link px-3" href="#">Sign out</a>
+          </div>
+        </div>
+      </header>
+      <div class="container-fluid">
+        <div class="row">
+    <nav id="sidebarMenu" class="col-md-2 col-lg-1 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3 sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">
+                <span data-feather="home" class="align-text-bottom"></span>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="workspace.html">
+                <span data-feather="file" class="align-text-bottom"></span>
+                Workspace
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                Products
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="users" class="align-text-bottom"></span>
+                Customers
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="bar-chart-2" class="align-text-bottom"></span>
+                Reports
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="layers" class="align-text-bottom"></span>
+                Integrations
+              </a>
+            </li>
+          </ul>
+          <h6
+            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-uppercase">
+            <span>Saved reports</span>
+            <a class="link-secondary" href="#" aria-label="Add a new report">
+              <span data-feather="plus-circle" class="align-text-bottom"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text" class="align-text-bottom"></span>
+                Current month
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text" class="align-text-bottom"></span>
+                Last quarter
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text" class="align-text-bottom"></span>
+                Social engagement
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text" class="align-text-bottom"></span>
+                Year-end sale
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="table">
+        <table class="table-striped
+        table-hover	
+        table-borderless
+        table-secondary
+        col-11 offset-1">
+            <caption>Shortcuts</caption>
+            <thead class="">
+
+                <tr>
+                    <th>Category</th>
+                    <th>Setting</th>
+                    <th>Shortcut</th>
+                </tr>
+            </thead>
+            <tbody class="">
+
+                <tr>
+                    <td>Accessibility</td>
+                    <td>Closed captioning</td>
+                    <td>ms-settings:easeofaccess-closedcaptioning</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>High contrast</td>
+                    <td>ms-settings:easeofaccess-highcontrast</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Keyboard</td>
+                    <td>ms-settings:easeofaccess-keyboard</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Magnifier</td>
+                    <td>ms-settings:easeofaccess-magnifier</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mouse</td>
+                    <td>ms-settings:easeofaccess-mouse</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Narrator</td>
+                    <td>ms-settings:easeofaccess-narrator</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Other options</td>
+                    <td>ms-settings:easeofaccess-otheroptions</td>
+                </tr>
+                <tr>
+                    <td>Battery and power</td>
+                    <td>Battery Saver</td>
+                    <td>ms-settings:batterysaver</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Battery Saver settings</td>
+                    <td>ms-settings:batterysaver-settings</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Battery use</td>
+                    <td>ms-settings:batterysaver-usagedetails</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Power and sleep</td>
+                    <td>ms-settings:powersleep</td>
+                </tr>
+                <tr>
+                    <td>Display and user interface</td>
+                    <td>Backgrounds</td>
+                    <td>ms-settings:personalization-background</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Colors (display)</td>
+                    <td>ms-settings:colors</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Colors (personaliation)</td>
+                    <td>ms-settings:personalization-colors</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Date and time</td>
+                    <td>ms-settings:dateandtime</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Display</td>
+                    <td>ms-settings:display</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mouse and touchpad</td>
+                    <td>ms-settings:mousetouchpad</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Personalization</td>
+                    <td>ms-settings:personalization</td>
+                </tr>
+                <tr>
+
+                    <td></td>
+                    <td>Region and language</td>
+                    <td>ms-settings:regionlanguage</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Screen rotation</td>
+                    <td>ms-settings:screenrotation</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Speech</td>
+                    <td>ms-settings:speech</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Start</td>
+
+                    <td>ms-settings:personalization-start</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Themes</td>
+                    <td>ms-settings:themes</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Typing</td>
+                    <td>ms-settings:typing</td>
+                </tr>
+                <tr>
+                    <td>Network and radios</td>
+                    <td>Airplane mode</td>
+                    <td>ms-settings:network-airplanemode</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Bluetooth</td>
+                    <td>ms-settings:bluetooth</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Cellular</td>
+                    <td>ms-settings:network-cellular</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Data usage</td>
+                    <td>ms-settings:datausage</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Dialup</td>
+                    <td>ms-settings:network-dialup</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>DirectAccess</td>
+                    <td>ms-settings:network-directaccess</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ethernet</td>
+                    <td>ms-settings:network-ethernet</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Manage Wi-Fi</td>
+                    <td>ms-settings:network-wifisettings</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mobile hotspot</td>
+                    <td>ms-settings:network-mobilehotspot</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Proxy</td>
+                    <td>ms-settings:network-proxy</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Wi-Fi</td>
+                    <td>ms-settings:network-wifi</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>VPN</td>
+                    <td>ms-settings:network-vpn</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Other</td>
+                    <td>For developers</td>
+                    <td>ms-settings:developers</td>
+                </tr>
+                <tr>
+                    <td>Offline maps</td>
+                    <td>ms-settings:maps</td>
+                </tr>
+                <tr>
+                    <td>Optional features</td>
+                    <td>ms-settings:optionalfeatures</td>
+                </tr>
+                <tr>
+
+                    <td>Account info</td>
+                    <td>ms-settings:privacy-accountinfo</td>
+                </tr>
+
+
+                </thead>
+
+            <tfoot></tfoot>
+        </table>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <form id="grocery-list">
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="T-Paper" id="T-Paper" name="grocery-item">
+                    <label class="form-check-label" for="T-Paper">InLine</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="DCT" id="DCT" name="grocery-item">
+                    <label class="form-check-label" for="DCT">TaskList</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            $("#login").submit(function (e) {
+                e.preventDefault();
+                $name = $("#login_name").val();
+                $password = $("#login_password").val();
+                $.ajax({
+                    url: "https://prod-28.southafricanorth.logic.azure.com:443/workflows/45442b044927497383a33972c5c986d5/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jjemoJoT70zjjr31okjObHGkWgxWt84jK6HHDzSqb6c  ",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        Section: "Login",
+                        name: $name,
+                        password: $password
+                    }),
+                    success: function (response) {
+                        console.log(response);
+                        $("#login_name").val(response.Login_Status)
+                        $("#r1").append(response);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log("Error:", errorThrown);
+                    },
+                });
+            });
+        });
+    </script>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+      integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
+      integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
+      crossorigin="anonymous"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
